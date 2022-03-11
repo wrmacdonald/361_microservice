@@ -16,7 +16,7 @@ greetings = [
     "Welcome"
 ]
 
-# loop whole check for
+# keep checking the communication file for a "start" command to trigger microservice run
 while True:
     # loop check the communication file for "start" command word
     command = "stop"
